@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+    "types": ["bun-types"],
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "noEmit": true,
+    "composite": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["src/client/components"],
+      "@game": ["src/client/game"],
+      "@helpers": ["src/server/helpers"],
+      "@hooks": ["src/client/hooks"],
+      "@services": ["src/server/services"],
+      "@types": ["src/server/types"]
+    }
+  },
+  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.json"]
+}

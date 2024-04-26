@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body,
+html {
+	overflow: hidden;
+	user-select: none;
+}
+
+#root {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}
+
+#ball {
+	border-radius: 50%;
+	position: absolute;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+}
